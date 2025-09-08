@@ -1,4 +1,4 @@
-name: 编译 OpenWrt 插件
+name: 编译 K3_OpenWrt 插件
 
 on:
   workflow_dispatch:
@@ -123,4 +123,5 @@ jobs:
 
           这个 Release 包含了编译好的 OpenWrt 插件。
       env:
+
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
